@@ -19,3 +19,11 @@ census_data.employed, census_data.unemployment
 FROM airbnb_data
 INNER JOIN census_data
 ON airbnb_data.censustract = census_data.censustract;
+
+SELECT airbnb_data.censustract, AVG (airbnb_data.price) AS "airbnb_avg_price", AVG(census_data.income) AS "average_income"
+FROM airbnb_data
+JOIN census_data
+ON airbnb_data.censustract = census_data.censustract
+GROUP BY airbnb_data.censustract
+ORDER BY airbnb_data.censustract DESC;
+
