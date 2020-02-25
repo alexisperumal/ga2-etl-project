@@ -9,4 +9,4 @@ Key Files:
 
 * Jupyter Notebook Extract: https://github.com/alexisperumal/ga2-etl-project/blob/master/arbnb_nyc_censustrack.ipynb
 
-* Final Report: https://github.com/alexisperumal/ga2-etl-project/blob/master/Project_Report/2020-02-24_GA2_ETL_Project_Report.docx
+* Final Report: https://github.com/alexisperumal/ga2-etl-project/blob/master/Project_Report/2020-02-24_GA2_ETL_Project_Report.pdf
